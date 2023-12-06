@@ -10,7 +10,6 @@ const jwt = require('jsonwebtoken');
  */
 
 const login = async (req, res) => {
-    return 'hello'
     const { email, password } = req.body;
 
     if (!email || !password) {
