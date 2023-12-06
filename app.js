@@ -20,17 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/index'));
 app.use('/api/user', require('./routes/users'));
-app.use('/api/slider', require('./routes/sliders'));
-app.use('/api/hottour', require('./routes/hottours'));
-app.use('/api/ourrating', require('./routes/ourratings'));
-app.use('/api/maintour', require('./routes/maintours'));
-app.use('/api/demandedtour', require('./routes/demandedtours'));
-app.use('/api/city', require('./routes/cities'));
-app.use('/api/booking_page_label', require('./routes/booking_page_labels'));
-app.use('/api/tour', require('./routes/tours'));
-app.use('/api/booking', require('./routes/bookings'));
-app.use('/api/about_page_progress', require('./routes/about_page_progresses'));
-app.use('/api/tourdetail_page_label', require('./routes/tourdetail_page_labels'));
+
 
 
 
