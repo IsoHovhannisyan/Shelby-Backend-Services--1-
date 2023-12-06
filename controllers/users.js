@@ -65,7 +65,7 @@ const register = async (req, res) => {
 
     if (registeredUser) {
         res
-            .status(400)
+            .status(409)
             .json({ message: "User with such e-mail already exists" });
     }
 
